@@ -1,21 +1,19 @@
-package ex2_tema;
+package Lab5.ex2_tema;
 import com.fasterxml.jackson.core.exc.StreamReadException;
 import com.fasterxml.jackson.core.exc.StreamWriteException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.DatabindException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import exemplu1.Persoana;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 
 public class MainApp {
     public static void scriere(List<PerecheNumere>numere){
         try{
             ObjectMapper mapper = new ObjectMapper();
-            File file=new File("src/main/java/ex2_tema/numere.json");
+            File file=new File("src/main/resources/numere.json");
             mapper.writeValue(file,numere);
         }
         catch (StreamWriteException e) {
@@ -31,7 +29,7 @@ public class MainApp {
     public static List<PerecheNumere> citire(){
         try{
             ObjectMapper mapper = new ObjectMapper();
-            File file=new File("src/main/java/ex2_tema/numere.json");
+            File file=new File("src/main/resources/numere.json");
             return mapper.readValue(file,new TypeReference<List<PerecheNumere>>(){});
         } catch (StreamReadException e) {
             throw new RuntimeException(e);

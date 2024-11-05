@@ -1,4 +1,4 @@
-package exemplu2;
+package Lab5.exemplu2;
 
 public class Calculator {
     private final int a;

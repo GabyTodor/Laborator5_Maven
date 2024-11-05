@@ -5,12 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b604367-d906-46cc-b6ae-b166f506ca86" name="Changes" comment="final">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex3_tema/Mobilier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex3_tema/Orientare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex3_tema/Placa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex3_tema/mobilier.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lab6/Angajat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lab6/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/angajati.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/numere.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex3_tema/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex3_tema/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex2_tema/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab5/ex2_tema/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex2_tema/PerecheNumere.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab5/ex2_tema/PerecheNumere.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex2_tema/numere.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex3_tema/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab5/ex3_tema/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex3_tema/Mobilier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab5/ex3_tema/Mobilier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex3_tema/Orientare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab5/ex3_tema/Orientare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex3_tema/Placa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab5/ex3_tema/Placa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex3_tema/mobilier.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mobilier.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exemplu1/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab5/exemplu1/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exemplu1/Persoana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab5/exemplu1/Persoana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exemplu1/persoane.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/persoane.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exemplu2/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab5/exemplu2/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TesteCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TesteCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TesteNumere.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TesteNumere.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="package.json" />
         <option value="Class" />
+        <option value="package.json" />
       </list>
     </option>
   </component>
@@ -69,6 +83,24 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gaby\IdeaProjects\Laborator5_Maven\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -90,7 +122,12 @@
       <workItem from="1730445225274" duration="85000" />
       <workItem from="1730487094422" duration="5843000" />
       <workItem from="1730500774530" duration="3000" />
-      <workItem from="1730539252080" duration="4654000" />
+      <workItem from="1730539252080" duration="4972000" />
+      <workItem from="1730729034202" duration="4696000" />
+      <workItem from="1730749011200" duration="1000" />
+      <workItem from="1730799276968" duration="2060000" />
+      <workItem from="1730816026609" duration="2122000" />
+      <workItem from="1730822891855" duration="1515000" />
     </task>
     <task id="LOCAL-00001" summary="final">
       <option name="closed" value="true" />
@@ -108,11 +145,30 @@
       <option name="project" value="LOCAL" />
       <updated>1730497457525</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="final">
+      <option name="closed" value="true" />
+      <created>1730544063841</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730544063841</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="final" />

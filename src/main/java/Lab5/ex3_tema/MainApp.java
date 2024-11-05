@@ -1,4 +1,4 @@
-package ex3_tema;
+package Lab5.ex3_tema;
 
 import com.fasterxml.jackson.core.exc.StreamReadException;
 import com.fasterxml.jackson.core.type.TypeReference;
@@ -19,7 +19,7 @@ public class MainApp {
     public static List<Mobilier> citire() {
         try {
             ObjectMapper mapper = new ObjectMapper();
-            File file = new File("C:/Users/Gaby/IdeaProjects/Laborator5_Maven/src/main/java/ex3_tema/mobilier.json");
+            File file = new File("src/main/resources/mobilier.json");
             return mapper.readValue(file, new TypeReference<List<Mobilier>>() {});
         } catch (StreamReadException | DatabindException e) {
             throw new RuntimeException(e);

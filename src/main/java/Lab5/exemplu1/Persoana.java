@@ -1,4 +1,4 @@
-package exemplu1;
+package Lab5.exemplu1;
 
 public class Persoana {
     private String nume;

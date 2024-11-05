@@ -3,8 +3,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import exemplu2.Calculator;
-import org.junit.jupiter.api.Test;
+import Lab5.exemplu2.Calculator;
 
 public class TesteCalculator {
     @Test

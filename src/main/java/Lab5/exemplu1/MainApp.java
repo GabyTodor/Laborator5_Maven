@@ -1,4 +1,4 @@
-package exemplu1;
+package Lab5.exemplu1;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -10,7 +10,7 @@ public class MainApp {
     public static void scriere(List<Persoana> lista) {
         try {
             ObjectMapper mapper=new ObjectMapper();
-            File file=new File("src/main/java/exemplu1/persoane.json");
+            File file=new File("src/main/resources/persoane.json");
             mapper.writeValue(file,lista);
         } catch (IOException e) {
             e.printStackTrace();
@@ -18,7 +18,7 @@ public class MainApp {
     }
     public static List<Persoana> citire() {
         try {
-            File file = new File("src/main/java/exemplu1/persoane.json");
+            File file = new File("src/main/resources/persoane.json");
             ObjectMapper mapper = new ObjectMapper();
             return mapper.readValue(file, new TypeReference<List<Persoana>>() {
             });

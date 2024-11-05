@@ -1,5 +1,4 @@
-import ex2_tema.PerecheNumere;
-import exemplu2.Calculator;
+import Lab5.ex2_tema.PerecheNumere;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

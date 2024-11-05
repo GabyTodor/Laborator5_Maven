@@ -1,4 +1,4 @@
-package ex2_tema;
+package Lab5.ex2_tema;
 
 /**
  * @author Gaby
