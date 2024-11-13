@@ -1,4 +1,4 @@
-package Lab7;
+package Lab7.ex1;
 
 import com.fasterxml.jackson.core.exc.StreamReadException;
 import com.fasterxml.jackson.core.exc.StreamWriteException;
@@ -9,16 +9,14 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.time.LocalDate;
 import java.util.*;
 import java.util.stream.Collectors;
 
 import static java.lang.System.exit;
 
 public class MainApp {
-    public static void scriere(Map<Integer,Carte> carti){
+    public static void scriere(Map<Integer, Carte> carti){
         try{
             ObjectMapper mapper = new ObjectMapper();
             mapper.registerModule(new JavaTimeModule()); // Înregistrăm JavaTimeModule pentru LocalDate
@@ -105,7 +103,8 @@ public class MainApp {
                     String autorul=sc.next();
                     sc.nextLine();
                     System.out.print("Introduceti data lansarii cartii noi: ");
-                    LocalDate anul=LocalDate.parse(sc.next());
+                    int anul=sc.nextInt();
+                    sc.nextLine();
                     carti.putIfAbsent(7,new Carte(titlul,autorul,anul));
                     break;
                 case 4:
@@ -116,7 +115,7 @@ public class MainApp {
                     Set<Carte> colectie=carti.values().stream().
                             filter((carte) -> carte.autorul().equals("Yuval Noah Harari")).
                             collect(Collectors.toSet());
-                    System.out.println("Cartile autorului Yuv5al Noah Harari sunt: ");
+                    System.out.println("Cartile autorului Yuval Noah Harari sunt: ");
                     colectie.forEach(System.out::println);
                     break;
                 case 6:
