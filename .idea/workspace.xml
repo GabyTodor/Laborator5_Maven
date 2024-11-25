@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b604367-d906-46cc-b6ae-b166f506ca86" name="Changes" comment="final">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab7/ex1/Carte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab7/ex2/Chitara.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab7/ex2/InstrumentMuzical.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab7/ex2/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab7/ex2/SetTobe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lab7/Carte.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lab7/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab7/ex1/MainApp.java" afterDir="false" />
-    </list>
+    <list default="true" id="4b604367-d906-46cc-b6ae-b166f506ca86" name="Changes" comment="final" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,7 +117,8 @@
       <workItem from="1731422001515" duration="2667000" />
       <workItem from="1731506867013" duration="2436000" />
       <workItem from="1731518695773" duration="1872000" />
-      <workItem from="1731524740362" duration="3383000" />
+      <workItem from="1731524740362" duration="4036000" />
+      <workItem from="1731600019774" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="final">
       <option name="closed" value="true" />
@@ -168,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731338651119</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="final">
+      <option name="closed" value="true" />
+      <created>1731529183586</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731529183586</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
