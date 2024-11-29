@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b604367-d906-46cc-b6ae-b166f506ca86" name="Changes" comment="final" />
+    <list default="true" id="4b604367-d906-46cc-b6ae-b166f506ca86" name="Changes" comment="final">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lab8_JDBC/ExceptieAnExcursie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lab8_JDBC/ExceptieVarsta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lab8_JDBC/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,6 +67,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Gaby/IdeaProjects/Laborator5_Maven/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -119,6 +126,10 @@
       <workItem from="1731518695773" duration="1872000" />
       <workItem from="1731524740362" duration="4036000" />
       <workItem from="1731600019774" duration="2000" />
+      <workItem from="1732528845726" duration="5267000" />
+      <workItem from="1732547828101" duration="1387000" />
+      <workItem from="1732731337878" duration="2206000" />
+      <workItem from="1732900129626" duration="2799000" />
     </task>
     <task id="LOCAL-00001" summary="final">
       <option name="closed" value="true" />
@@ -168,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731529183586</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="final">
+      <option name="closed" value="true" />
+      <created>1732528860111</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1732528860111</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
