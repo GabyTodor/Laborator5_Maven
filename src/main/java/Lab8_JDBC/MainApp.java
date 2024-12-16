@@ -29,7 +29,7 @@ public class MainApp {
                     System.out.print("Destinatia: ");
                     String destinatia=sc.nextLine();
                     int anul;
-                    int anul_nasterii=LocalDate.now().getYear()-rs.getInt("varsta");
+                    int anul_nasterii= LocalDate.now().getYear()-rs.getInt("varsta");
                     while(true){
                         try{
                             System.out.print("Anul: ");
@@ -206,9 +206,10 @@ public class MainApp {
             throw new ExceptieAnExcursie("Anul trebuie sa fie dupa anul nasterii!");
         }
     }
+
     public static void main(String[] args) throws SQLException {
         String url = "jdbc:mysql://localhost:3306/pj";
-        Connection connection = DriverManager.getConnection (url, "root", "root");
+        Connection connection= DriverManager.getConnection(url, "root", "root");
         Scanner sc = new Scanner(System.in);
         do{
             System.out.println("\nMeniul");
@@ -287,5 +288,7 @@ public class MainApp {
                     break;
             }
         }while(true);
+
     }
+
 }
