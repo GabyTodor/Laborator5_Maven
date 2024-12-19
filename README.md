@@ -1,1 +1,1 @@
-Repository-ul acesta contine fisele de laborator 5, 6, 7
+Repository-ul acesta contine fisele de laborator 5, 6, 7, 8
